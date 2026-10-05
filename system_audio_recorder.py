@@ -1,6 +1,5 @@
 import os
 import sys
-import wave
 import tempfile
 import subprocess
 import threading
