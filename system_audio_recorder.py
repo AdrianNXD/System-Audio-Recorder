@@ -297,15 +297,15 @@ class AudioRecorderWindow(QWidget):
 
             # force stereo
             "-ac",
-            CHANNELS,
+            str(CHANNELS),
 
             # 48 kHz
             "-ar",
-            SAMPLE_RATE,
+            str(SAMPLE_RATE),
 
             # MP3 with 320 kbit/s
             "-b:a",
-            MP3_BITRATE,
+            str(MP3_BITRATE),
 
             output_mp3
         ]
