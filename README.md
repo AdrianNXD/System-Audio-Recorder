@@ -5,6 +5,8 @@ Click "Record" to record. Click "Stop" to stop. That's it. The workflow is easy.
 
 Files will be saved as high quality 320 kbps MP3 files. 
 
+![Screenshot](screenshot.png)
+
 ## Requirements
 
 This app needs some Python packages. Just install them when missing them. Should work across different versions. 
